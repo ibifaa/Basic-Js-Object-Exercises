@@ -9,7 +9,8 @@
  console.log(car);
  
  function removeProperty(car, property) {
-     delete car.property
+    delete car["color"]
+    
  }
  
  removeProperty(car, car.color)
